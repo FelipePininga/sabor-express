@@ -21,7 +21,6 @@ def alterar_status():
 
 def exibir_subtitulo(texto):
     '''Esta função é responsáver por exibir o subtítulo de cada função chamada'''
-    exibir_nome_do_programa()
     linha='*'*(len(texto))
     os.system('cls')
     print(linha)
